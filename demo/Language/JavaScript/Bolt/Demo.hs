@@ -1,7 +1,6 @@
 module Language.JavaScript.Bolt.Demo where
 
-import Language.ECMAScript3
 import Language.JavaScript.Bolt
 
-runparse :: IO Bool
-runparse = fmap isBolt' $  parsex "data/Example.js"
+runparse :: IO Deps
+runparse = fmap dependencies' $ parsex "data/Example.js"
