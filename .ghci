@@ -1,0 +1,7 @@
+:set -isrc -idist/build/autogen
+:set -Wall 
+:l Language.JavaScript.Bolt
+:m + Language.JavaScript.Bolt
+:set prompt ">> "
+
+
